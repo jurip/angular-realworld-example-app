@@ -7,6 +7,10 @@ const routes: Routes = [
     loadChildren: './settings/settings.module#SettingsModule'
   },
   {
+    path: 'calendar',
+    loadChildren: './calendar/calendar.module#CalendarModule'
+  },
+  {
     path: 'profile',
     loadChildren: './profile/profile.module#ProfileModule'
   },
